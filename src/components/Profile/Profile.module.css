@@ -1,0 +1,137 @@
+.container {
+  width: 100%;
+  margin: 10px auto;
+  border: 2px solid rgb(17, 17, 17);
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.cardContent {
+  margin-right: auto;
+  margin-left: auto;
+  text-align: center;
+  padding: 20px;
+}
+
+.avatarWrap {
+  background-color: rgba(52, 56, 54, 0.795);
+  border-radius: 50%;
+  overflow: hidden;
+  margin-bottom: 30px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 200px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.userInfo {
+  text-align: center;
+}
+
+.userName {
+  font-size: 35px;
+  margin-bottom: 10px;
+}
+
+.userTeg,
+.userLocatin {
+  font-size: 30px;
+  color: rgb(122 122 122);
+}
+
+.userList {
+  background-color: rgb(102 97 97 / 22%);
+  border-top: 2px solid rgb(127 120 120);
+  display: flex;
+  height: 80px;
+}
+
+.userItem {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex-basis: calc(100% / 3);
+}
+
+.userItem:not(:last-child) {
+  border-right: 2px solid rgb(127 120 120);
+}
+
+.userTitle,
+.titleInfo {
+  font-size: 24px;
+}
+
+@media screen and (min-width: 375px) {
+  .container {
+    max-width: 375px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .container {
+    max-width: 768px;
+  }
+
+  .avatarWrap {
+    width: 280px;
+  }
+
+  .userName {
+    font-size: 45px;
+  }
+
+  .userTag,
+  .userLocation {
+    font-size: 40px;
+  }
+
+  .userList {
+    height: 100px;
+  }
+
+  .userTitle,
+  .userInfo {
+    font-size: 35px;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .container {
+    max-width: 1440px;
+    margin: 20px auto;
+  }
+
+  .cardContent {
+    padding: 30px;
+  }
+
+  .avatarWrap {
+    width: 500px;
+  }
+
+  .userName {
+    font-size: 55px;
+    margin-bottom: 20px;
+  }
+
+  .userTag,
+  .userLocation {
+    font-size: 50px;
+  }
+
+  .userList {
+    display: flex;
+    height: 180px;
+  }
+
+  .userTitle,
+  .userInfo {
+    font-size: 50px;
+  }
+}
