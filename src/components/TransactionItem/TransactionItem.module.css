@@ -1,0 +1,36 @@
+.lableData {
+  font-size: 16px;
+  padding: 5px;
+  border: 2px solid rgb(17, 17, 17);
+}
+
+@media screen and (min-width: 375px) {
+  .lableData {
+    font-size: 20px;
+    padding: 10px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .lableData {
+    padding: 15px;
+  }
+}
+.lableData {
+  font-size: 16px;
+  padding: 5px;
+  border: 2px solid rgb(17, 17, 17);
+}
+
+@media screen and (min-width: 375px) {
+  .lableData {
+    font-size: 20px;
+    padding: 10px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .lableData {
+    padding: 15px;
+  }
+}
